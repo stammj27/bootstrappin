@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/blueorb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mainfont {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 4em
+}
+a {
+    color: white;
+}
+.jumbotron{
+    background-image: url(../img/wetorb.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align:center;
+}
+.well{
+    background-image: url(../img/gumballs.jpg);
+    background-size: cover;
+}
+.basic{
+    color: #fff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+.extra {
+    height:60px;
+    border: 2px #444444 solid;
+    border-radius:10px;
+}
